@@ -4,20 +4,14 @@
 	background-attachment:fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
+	margin-top:5rem;
 }
-
 .head-top{
-	background-color:white;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding:15px 0px;
 }
 .top-section{
 	width:100%;
 	display:flex;	
-}
-.heading{
-	width:25%;
-	display:flex;
 }
 .heading img{
 	height:30px;
@@ -25,12 +19,6 @@
 }
 .heading h3{
 	color:#012970;
-}
-.nav-section{
-	width:65%;
-}
-.button-section{
-	width:10%;
 }
 .bannner-con{
 	align-items:center;
@@ -298,7 +286,8 @@
 	margin-top:5rem;
 }
 .team-para{
-	font-size:0.8rem;
+	font-style:italic;
+	font-size:rem;
 	padding-bottom:3rem;
 }
 .box-1 h5{
@@ -325,75 +314,36 @@
 	color:#4154f1;
 }
 /*--contect-sec----*/
-.address{ 
-    color:#758bb3;
+.address-box{
 	padding:2rem;
 	background-color:#fafbff;
+	margin-bottom:1.3rem;
 }
-.address i{
-	font-size:2.5rem;
+.address-box i{
+	font-size:2.5rem; 
 	color:#4154f1;
 }
-.address h4{
-	margin-top:0.9rem;
+.address-box h5{
+	margin-top:1rem;
+	margin-bottom:1rem;
 	color:#012970;
-	
 }
-.call{ 
-	padding:2rem;
+.typing-form{
+     margin-bottom:2rem;
+}
+.full-text{
 	background-color:#fafbff;
 }
-.call i{
-	font-size:2.5rem;
-	color:#4154f1;
-}
-.call h4{
-	margin-top:0.9rem;
-	color:#012970;
-	
-}
-.mail{ 
-	padding:2rem;
-	background-color:#fafbff;
-}
-.mail i{
-	font-size:2.5rem;
-	color:#4154f1;
-	
-}
-.mail h4{
-	margin-top:0.9rem;
-	color:#012970;
-	
-}
-.hours{ 
-	padding:2rem;
-	background-color:#fafbff;
-}
-.hours i{
-	font-size:2.5rem;
-	color:#4154f1;
-}
-.hours h4{
-	margin-top:0.9rem;
-	color:#012970;
-	
-}
-.news{
-	padding:3.5rem;
-    background-color:#f6f9ff;
-    border-top:1px solid #f6f9ff;
-}
-.submit-buttom {
+.send-btn button{
+	background-color:blue;
+	border:none;
+	color:white;
 	text-align:center;
-}
-.submit-buttom h5{
-	color:#012970;
-	font-size:1.5rem;
-}
-.submit-buttom p{
-	margin-top:0.5rem;
-	font-size:1.0rem;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	padding-left:1.5rem;
+	padding-right:1.5rem;
+	border-radius:4px;
 }
 /*Ratione section start*/
 .ratione{
@@ -486,4 +436,143 @@
 .pricing-btn:hover{
 	background-color:blue;
 	color:white;
+}
+/*TESTIMONIALS-SEC-START*/
+.testmoni-icon{
+	word-spacing:-18px;
+	color:#ffc107;
+	font-size:1.3rem;
+	text-align:center;
+	margin-bottom:1.5rem;
+}
+.testmoni-img{
+	text-align:center;
+}
+.testmoni-img img{
+	width:100px;
+	border-radius:50%;
+}
+.testmoni-para{
+	font-size:1rem;
+	color:#8a8a8a;
+	margin-bottom:1rem;
+	font-style: italic;
+}
+
+.news{
+	padding:3.5rem;
+    background-color:#f6f9ff;
+    border-top:1px solid #e1ecff;
+}
+.submit-buttom {
+	text-align:center;
+}
+.submit-buttom h5{
+	color:#012970;
+	font-size:1.5rem;
+}
+.submit-buttom p{
+	margin-top:0.5rem;
+	font-size:1.0rem;
+	font-style:normal:
+}
+.news-btn{
+	background-color: white;
+    position: relative;
+    margin-left: 26rem;
+    margin-right: 26rem;
+	margin-top:3rem;
+	border:1px solid #e1ecff;
+}
+.subsribe-btn{  
+    width:50%%;
+	padding-top:1rem;
+	padding-bottom:1rem;
+    padding-right:1.4rem;
+	padding-left:1rem;
+	background-color:blue;
+	font-size:1rem;
+	border:lightblue;
+    border-radius:5px;	 
+	color:white;
+}
+.text-box{
+	border:none;
+}
+
+.footer-section{
+	border-top:1px solid #e1ecff;
+	background: white url(../image/footer-bg.png) no-repeat right top;
+}
+.footer-head a img{
+	height:25px;
+	margin-right:10px;
+	margin-top:0.5rem;
+	font-family: "Nunito", sans-serif
+}
+.footer-head a{
+	text-decoration:none;
+	display:flex;
+}
+.footer-head h4{
+	margin-right:5px;
+	color:#012970;
+	font-size:2rem;
+}
+.footer-icon i{
+	font-size:1.3rem;
+	color:#8094b7;
+	margin-right:0.3rem;
+}
+.links-service h4{
+	color:#012970;
+	font-size:1rem;
+	padding-bottom:1rem;
+}
+.links-service ul{
+	padding:0;
+}
+.links-service ul li{
+	list-style-type:none;
+	padding-bottom:0.8rem;
+}
+.links-service ul li i{
+	color:#d0d4fc;
+}
+.links-service ul li a{
+	text-decoration:none;
+	color:#013289;
+}
+.contact h4{
+	font-size:1rem;
+	padding-left:1.5rem;
+}
+.contact p{
+	text-align:left;
+	padding-left:2rem;
+	margin-top:1.5rem;
+	color:#013289;
+}
+.phone-mail{
+	padding-top:1rem;
+}
+.phone-mail p{
+	margin-top:0;
+    padding-bottom:0;
+	color:black;
+	font-size:1rem;
+}
+.footer-full{
+	background-color:#f6f9ff;
+	border-top:1px solid #e1ecff;
+	padding-bottom:2rem;
+}
+.copyright{
+	padding-top:2.5rem;
+}
+.bootstrap-end{
+	padding-top:0.3rem;
+}
+.bootstrap-end a{
+	text-decoration:none;
 }
