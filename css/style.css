@@ -8,6 +8,8 @@
 }
 .head-top{
 	padding:15px 0px;
+	background-color:#fff;
+	box-shadow: 0px -12px 25px #888888;
 }
 .top-section{
 	width:100%;
@@ -18,16 +20,43 @@
 	margin-right:7px;
 }
 .heading h3{
+	margin-right:5rem;
 	color:#012970;
+	font-family: "Nunito", sans-serif;
+	font-weight:600;
 }
-.bannner-con{
-	align-items:center;
-}
-.banner-con h2{
-	line-height:10px;
+.head-letter{
+	letter-spacing:1px;
+	font-weight:550;
+	font-family: "Nunito", sans-serif;
+	font-size:3rem;
+	color:#012970;
 }
 .banner-para{
     font-size:1.5rem;
+}
+.banner-btn{
+    padding:0.7rem 3rem;
+	background-color:#4154f1;
+}
+.banner-btn i{
+	font-size:1.7rem;
+	
+}
+.nav-section ul li a{
+	font-size:1rem;
+	font-weight:500;
+	color: #013289;
+}
+.button-section{
+	margin-left:3rem;	
+}
+.button-section button{
+	background-color:#4154f1;
+}
+.get{
+	padding-left:2rem;
+	padding-right:2rem;
 }
 .pt-5{
 	padding-top:4.5rem;
@@ -47,9 +76,10 @@
 	font-weight:500;
     color: #012970;
 }
+
 .con-head-1{
 	color:#4154f1;
-	font-weight:400;
+	font-weight:600;
 }
 .con-head-2{
 	color:#012970;
@@ -84,11 +114,25 @@
 	background-color:#ecf3ff;
 	border-radius:5px;
 }
+.feat-con{
+	font-size:17px;
+	font-weight:650;
+	color:#012970;
+}
 .icofont-check{
 	font-size:20px;
 }
+.neque-sec h3{
+	font-family: "Nunito", sans-serif;
+	font-size:1.9rem;
+	color:#012970;
+	font-weight:600;
+}
 .naque-section{
 	margin-right:7px;
+}
+.naque-sec h5{
+	color:#012970;
 }
 .neque-img img{
 	width:100%;
@@ -133,6 +177,10 @@
 	font-size:2.5rem;
 	color:#0b198f;
 }
+.ratione-head h3{
+	font-size:2rem;
+	font-weight:620;
+}
 .Ratione-img img{
 	width:100%;
 	height:auto;
@@ -161,6 +209,7 @@
 	font-size:1.1rem;
 }
 .our-values{
+	padding:3rem;
 	border-bottom:3px solid #2db6fa;
 	border-radius:5px;
 }
@@ -479,15 +528,14 @@
 .news-btn{
 	background-color: white;
     position: relative;
-    margin-left: 26rem;
-    margin-right: 26rem;
 	margin-top:3rem;
 	border:1px solid #e1ecff;
 }
 .subsribe-btn{  
-    width:50%%;
-	padding-top:1rem;
-	padding-bottom:1rem;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
     padding-right:1.4rem;
 	padding-left:1rem;
 	background-color:blue;
